@@ -68,7 +68,7 @@ buildJS = (env) ->
 buildCSS = (env) ->
 
   gulp
-    .src './app/styles/index.styl'
+    .src './styles/index.styl'
     .pipe(
       stylus(
         use: autoprefixer browsers: ['ios 7']
